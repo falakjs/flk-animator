@@ -2,6 +2,7 @@
     "name": "flk-animator",
     "description": "Animate.css animation on elements",
     "version": "0.1.5",
+    "main": "dist/Animator.js",
     "externals": {
         "css": {
             "common": [
