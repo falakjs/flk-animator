@@ -24,6 +24,10 @@ class Animator {
 
             element.style.display = 'block';
 
+            for (let event of 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend'.split(' ')) {
+                element.addEventListener(event, resolve);
+            }
+
             element.classList.add(...classes.split(' '));
         });
     }
