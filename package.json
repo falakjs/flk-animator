@@ -1,7 +1,7 @@
 {
-    "name": "flk-animator",
+    "name": "@flk/animator",
     "description": "Animate.css animation on elements",
-    "version": "0.1.9",
+    "version": "1.3.3",
     "main": "dist/Animator.js",
     "externals": {
         "css": {
@@ -16,6 +16,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/falakjs/flk-form"
+        "url": "https://github.com/falakjs/flk-animator"
     }
 }
